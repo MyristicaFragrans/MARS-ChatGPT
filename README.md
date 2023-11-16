@@ -2,6 +2,40 @@
 
 ## MARS (MIPS Assembler and Runtime Simulator) 
 
+Now with ChatGPT Support. This is a joke. Maybe don't use this modification.
+
+### ChatGPT thing
+
+Edit the file at src/main/java/mars/tools/ChatGPT.java and put your OpenAI key
+at the top in the OPENAI_API_KEY constant.
+
+If you want to change the model, temperature, whatever, look in the
+`buildRequestBody` method. As of writing, it is using gpt-3.5-turbo and a temp
+of 1.
+
+Compile the program. I wrote a [Nix](https://nixos.org/) shell script if you
+don't want to bother with dependencies.
+
+ChatGPT will be in the Tools menu.
+
+![An image of the ChatGPT window](screenshot_of_chatgpt.png)
+
+Yes, I know it gave an incorrect answer. Doubles cannot be loaded into $f3. Take
+this as a warning to not rely on AI.
+
+#### ChatGPT Integration wishlist
+
+- [x] it works. Kinda.
+- [ ] Make it accept API key at runtime
+- [ ] Include script context
+- [ ] Include debugging context (like registers)
+- [ ] Make the AI more snarky.
+- [ ] Ollama support?
+
+#### Unwishlist
+
+- [x] Don't add legally dubious "free" API
+
 ### An IDE for MIPS Assembly Language Programming
 
 MARS has been jointly developed by Pete Sanderson (programming) and Ken Vollmar (details and paperwork).
