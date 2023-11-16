@@ -4,7 +4,7 @@
 
 Now with ChatGPT Support. This is a joke. Maybe don't use this modification.
 
-At some point I messed up the "fork" thing, but this is a fork of this: (https://github.com/gon1332/mars)[https://github.com/gon1332/mars]
+At some point I messed up the "fork" thing, but this is a fork of this: [https://github.com/gon1332/mars](https://github.com/gon1332/mars)
 
 ### ChatGPT thing
 
